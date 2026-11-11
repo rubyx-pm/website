@@ -20,10 +20,10 @@ export default defineConfig({
     /^\.\.\//
   ],
   sitemap: {
-    hostname: 'https://rubyxgames.github.io'
+    hostname: 'https://rubyx-pm.github.io'
   },
   transformPageData(pageData) {
-    const canonicalUrl = `https://rubyxgames.github.io/website/${pageData.relativePath}`
+    const canonicalUrl = `https://rubyx-pm.github.io/website/${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '')
     pageData.frontmatter.head ??= []
@@ -51,7 +51,7 @@ export default defineConfig({
       { text: 'Главная', link: '/' },
       { text: 'Документация', link: '/docs' },
       { text: 'Rubyx', link: '/docs/rubyx/' },
-      { text: 'Релизы', link: 'https://github.com/RubyxGames/PocketMine-MP/releases' }
+      { text: 'Релизы', link: 'https://github.com/rubyx-pm/PocketMine-MP/releases' }
     ],
     docFooter: { prev: 'Назад', next: 'Далее' },
     outline: { label: 'На этой странице' },

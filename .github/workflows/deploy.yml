@@ -33,6 +33,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-vitepress-
       - uses: actions/configure-pages@v4
+        with:
+          enablement: true
       - run: pnpm install
       - run: pnpm run docs:build
       - uses: actions/upload-pages-artifact@v3
