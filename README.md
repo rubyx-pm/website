@@ -1,6 +1,8 @@
 # RubyxGames documentation site
 
-- **База:** полная копия [axolotl-pm/website](https://github.com/axolotl-pm/website) → `docs/` (64+ страниц).
+> **Fork** [axolotl-pm/website](https://github.com/axolotl-pm/website) — документация Axolotl-PM как база, плюс раздел Rubyx.
+
+- **База:** [axolotl-pm/website](https://github.com/axolotl-pm/website) → `docs/` (64+ страниц).
 - **Дополнение:** `docs/rubyx/` — markdown из `rubyx-server/docs/`.
 
 ## Команды
