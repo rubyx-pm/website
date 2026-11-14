@@ -36,6 +36,7 @@ description: Документация ядра RubyxGames PocketMine-MP для M
 - 🔌 **NetherNet и RakNet** — [установка](/docs/rubyx/installation), [эксплуатация](/docs/rubyx/nethernet)
 - 🖥️ **DDUI, ops, метрики** — раздел [RubyxGames](/docs/rubyx/)
 - ⤴️ **Релизы** на [GitHub](https://github.com/RubyxGames/PocketMine-MP/releases)
+- 🧩 **[Blueprint](/docs/blueprint/)** — визуальные графы мини-игр на MiniGameBase
 
 ::: info Примечание
 **RubyxGames — не ванильный survival.** Нет полноценной ванильной генерации, редстоуна, ИИ мобов и многого другого из офлайн Bedrock.
@@ -74,5 +75,7 @@ description: Документация ядра RubyxGames PocketMine-MP для M
 - [Документация по плагинам](/docs/developers/plugin-docs-index)
 - [Внутренности ядра](/docs/developers/internals-docs-index)
 - [Threading in PHP — WTF?](/docs/developers/threading-in-php-wtf)
+- [RUBYX Blueprint](/docs/blueprint/)
 
 Источник части страниц — [ATTRIBUTION](/docs/ATTRIBUTION).
+

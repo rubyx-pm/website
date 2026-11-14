@@ -51,6 +51,18 @@ export default defineConfig({
       { text: 'Главная', link: '/' },
       { text: 'Документация', link: '/docs' },
       { text: 'Rubyx', link: '/docs/rubyx/' },
+      {
+        text: 'Blueprint',
+        activeMatch: '/docs/blueprint',
+        items: [
+          { text: 'Обзор', link: '/docs/blueprint/' },
+          { text: 'Полная документация', link: '/docs/blueprint/guide' },
+          { text: 'MiniGameBase 2.1', link: '/docs/blueprint/integrations' },
+          { text: 'Каталог узлов', link: '/docs/blueprint/nodes' },
+          { text: 'Шаблоны', link: '/docs/blueprint/templates' },
+          { text: 'Vs Unreal Engine', link: '/docs/blueprint/ue-gap' }
+        ]
+      },
       { text: 'Релизы', link: 'https://github.com/rubyx-pm/PocketMine-MP/releases' }
     ],
     docFooter: { prev: 'Назад', next: 'Далее' },
@@ -59,7 +71,47 @@ export default defineConfig({
     sidebarMenuLabel: 'Меню',
     darkModeSwitchLabel: 'Тема',
 
-    sidebar: [
+    sidebar: {
+      '/docs/blueprint/': [
+        {
+          text: 'RUBYX Blueprint',
+          items: [
+            { text: 'Обзор', link: '/docs/blueprint/' },
+            { text: 'Полная документация', link: '/docs/blueprint/guide' },
+            { text: 'MiniGameBase 2.1', link: '/docs/blueprint/integrations' },
+            { text: 'Каталог узлов', link: '/docs/blueprint/nodes' },
+            { text: 'Шаблоны', link: '/docs/blueprint/templates' },
+            { text: 'Компилятор', link: '/docs/blueprint/compiler' },
+            { text: 'Архитектура', link: '/docs/blueprint/architecture' },
+            { text: 'Формат .rbxblueprint', link: '/docs/blueprint/format' },
+            { text: 'Vs Unreal Engine', link: '/docs/blueprint/ue-gap' }
+          ]
+        },
+        {
+          text: 'Связанное',
+          items: [
+            { text: 'RubyxGames ядро', link: '/docs/rubyx/' },
+            { text: 'Разработка плагинов', link: '/docs/developers/plugin-docs-index' },
+            { text: 'Вся документация', link: '/docs/' }
+          ]
+        }
+      ],
+      '/docs/': [{
+        text: 'Blueprint',
+        collapsed: false,
+        items: [
+          { text: 'Обзор', link: '/docs/blueprint/' },
+          { text: 'Полная документация', link: '/docs/blueprint/guide' },
+          { text: 'MiniGameBase 2.1', link: '/docs/blueprint/integrations' },
+          { text: 'Каталог узлов', link: '/docs/blueprint/nodes' },
+          { text: 'Шаблоны', link: '/docs/blueprint/templates' },
+          { text: 'Компилятор', link: '/docs/blueprint/compiler' },
+          { text: 'Архитектура', link: '/docs/blueprint/architecture' },
+          { text: 'Формат .rbxblueprint', link: '/docs/blueprint/format' },
+          { text: 'Vs Unreal Engine', link: '/docs/blueprint/ue-gap' }
+        ]
+      },
+      
       {
         text: 'Начало работы',
         items: [
@@ -258,7 +310,8 @@ export default defineConfig({
           { text: 'Сетевой аудит', link: '/docs/rubyx/AXOLOTL_NETWORK_AUDIT' }
         ]
       }
-    ],
+    ]
+    }
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/RubyxGames/PocketMine-MP' }
