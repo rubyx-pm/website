@@ -18,6 +18,8 @@
 | [Команды и права](./commands) | `/mg`, `/npcai`, permissions |
 | [Конфиг](./config) | `config.yml`, шаблоны, layout точек |
 | [Storage / Forms / Worlds](./storage) | Данные, UI, копии карт, PlaceholderAPI |
+| [Менеджеры](./managers) | Arena/World/Form/Timer/Command… |
+| [Справочник API](./reference) | Все публичные методы классов |
 
 Связанное: [RUBYX Blueprint](/docs/blueprint/) · [интеграция Blueprint ↔ MiniGameBase 2.1](/docs/blueprint/integrations)
 

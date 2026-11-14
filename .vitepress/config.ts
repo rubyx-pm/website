@@ -73,7 +73,8 @@ export default defineConfig({
           { text: 'Сервисы 2.1', link: '/docs/minigamebase/services' },
           { text: 'Модули', link: '/docs/minigamebase/modules' },
           { text: 'События', link: '/docs/minigamebase/events' },
-          { text: 'Команды', link: '/docs/minigamebase/commands' }
+          { text: 'Команды', link: '/docs/minigamebase/commands' },
+          { text: 'Справочник API', link: '/docs/minigamebase/reference' }
         ]
       },
       { text: 'Релизы', link: 'https://github.com/rubyx-pm/PocketMine-MP/releases' }
@@ -124,7 +125,9 @@ export default defineConfig({
             { text: 'Модули', link: '/docs/minigamebase/modules' },
             { text: 'Команды и права', link: '/docs/minigamebase/commands' },
             { text: 'Конфиг', link: '/docs/minigamebase/config' },
-            { text: 'Storage / Forms / Worlds', link: '/docs/minigamebase/storage' }
+            { text: 'Storage / Forms / Worlds', link: '/docs/minigamebase/storage' },
+            { text: 'Менеджеры', link: '/docs/minigamebase/managers' },
+            { text: 'Справочник API', link: '/docs/minigamebase/reference' }
           ]
         },
         {
