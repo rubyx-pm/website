@@ -21,6 +21,8 @@ description: "Фасады MiniGameApi, события, новые узлы Blue
 
 Текущая поверхность: **mgbVersion `2.1.0`** (см. `schema/api-schema.json`).
 
+Полная документация MiniGameBase (все методы, модули, конфиг): **[docs/minigamebase](/docs/minigamebase/)**.
+
 ---
 
 ## MiniGameApi 2.1 — новые фасады

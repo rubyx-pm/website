@@ -63,6 +63,19 @@ export default defineConfig({
           { text: 'Vs Unreal Engine', link: '/docs/blueprint/ue-gap' }
         ]
       },
+      {
+        text: 'MiniGameBase',
+        activeMatch: '/docs/minigamebase',
+        items: [
+          { text: 'Обзор', link: '/docs/minigamebase/' },
+          { text: 'Быстрый старт', link: '/docs/minigamebase/guide' },
+          { text: 'MiniGameApi', link: '/docs/minigamebase/api' },
+          { text: 'Сервисы 2.1', link: '/docs/minigamebase/services' },
+          { text: 'Модули', link: '/docs/minigamebase/modules' },
+          { text: 'События', link: '/docs/minigamebase/events' },
+          { text: 'Команды', link: '/docs/minigamebase/commands' }
+        ]
+      },
       { text: 'Релизы', link: 'https://github.com/rubyx-pm/PocketMine-MP/releases' }
     ],
     docFooter: { prev: 'Назад', next: 'Далее' },
@@ -90,8 +103,35 @@ export default defineConfig({
         {
           text: 'Связанное',
           items: [
+            { text: 'MiniGameBase', link: '/docs/minigamebase/' },
             { text: 'RubyxGames ядро', link: '/docs/rubyx/' },
             { text: 'Разработка плагинов', link: '/docs/developers/plugin-docs-index' },
+            { text: 'Вся документация', link: '/docs/' }
+          ]
+        }
+      ],
+      '/docs/minigamebase/': [
+        {
+          text: 'MiniGameBase',
+          items: [
+            { text: 'Обзор', link: '/docs/minigamebase/' },
+            { text: 'Быстрый старт', link: '/docs/minigamebase/guide' },
+            { text: 'MiniGameApi', link: '/docs/minigamebase/api' },
+            { text: 'GameType', link: '/docs/minigamebase/gametype' },
+            { text: 'Арены', link: '/docs/minigamebase/arena' },
+            { text: 'Сервисы 2.1', link: '/docs/minigamebase/services' },
+            { text: 'События', link: '/docs/minigamebase/events' },
+            { text: 'Модули', link: '/docs/minigamebase/modules' },
+            { text: 'Команды и права', link: '/docs/minigamebase/commands' },
+            { text: 'Конфиг', link: '/docs/minigamebase/config' },
+            { text: 'Storage / Forms / Worlds', link: '/docs/minigamebase/storage' }
+          ]
+        },
+        {
+          text: 'Связанное',
+          items: [
+            { text: 'Blueprint', link: '/docs/blueprint/' },
+            { text: 'Blueprint ↔ MGB', link: '/docs/blueprint/integrations' },
             { text: 'Вся документация', link: '/docs/' }
           ]
         }
@@ -112,6 +152,18 @@ export default defineConfig({
         ]
       },
       
+      {
+        text: 'MiniGameBase',
+        collapsed: false,
+        items: [
+          { text: 'Обзор', link: '/docs/minigamebase/' },
+          { text: 'Быстрый старт', link: '/docs/minigamebase/guide' },
+          { text: 'MiniGameApi', link: '/docs/minigamebase/api' },
+          { text: 'Сервисы 2.1', link: '/docs/minigamebase/services' },
+          { text: 'Модули', link: '/docs/minigamebase/modules' },
+          { text: 'События', link: '/docs/minigamebase/events' }
+        ]
+      },
       {
         text: 'Начало работы',
         items: [
