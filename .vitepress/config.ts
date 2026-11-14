@@ -311,7 +311,7 @@ export default defineConfig({
         ]
       }
     ]
-    }
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/RubyxGames/PocketMine-MP' }
